@@ -1,19 +1,16 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Francisco!',
-  siteDescription: `Create your online curriculum in just a few minutes with this starter`,
+  siteTitle: 'Hola! soy Álvaro!',
+  siteDescription: `Mi curriculum online 2020`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
-  authorName: 'Francisco Santos',
-  twitterUsername: '_franciscodf',
-  githubUsername: 'santosfrancisco',
-  authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-    In 2012 I started working as a support technician and I approached the developers.
-    In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
-    I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
+  authorName: 'Álvaro Medina',
+  twitterUsername: 'AlvaritOO',
+  githubUsername: 'AlvaritOO',
+  authorAvatar: '/images/avatar.jpg',
+  authorDescription: `Desarrollador, apasionado por lo que hago. Siempre interesado en cómo se hacían los sitios, comencé a estudiar HTML, CSS y Javascrip por hobby.<br /> Constantemente me estoy capacitando con documentación, tutoriales y cursos en linea que veo diaramente. <br />Actualmente trabajo como desarrollador frontend freelance y trabajo principalmente con  <strong>React, Nextjs y Gatsbyjs.</strong>`,
   skills: [
     {
       name: 'HTML',
-      level: 70
+      level: 60
     },
     {
       name: 'CSS',
@@ -24,84 +21,89 @@ module.exports = {
       level: 50
     },
     {
-      name: 'NodeJs',
-      level: 40
+      name: 'React',
+      level: 80
     },
     {
-      name: 'React',
-      level: 60
+      name: 'Nextjs y Gatsbyjs',
+      level: 70
     },
     {
       name: 'Git',
-      level: 70
+      level: 50
     },
     /* more skills here */
   ],
   jobs: [
     /* more jobs here */
     {
-      company: "Gympass",
+      company: "Sence",
       begin: {
-        month: 'sep',
+        month: 'dic',
+        year: '2018'
+      },
+      duration: null,
+      occupation: "Curso 1000 Programadores",
+      description: "Participo de programa de capacitción de 500 horas las cuales complete y obtuve certificaión de desarrollo del mismo."
+  
+    },  {
+      company: "Capacitación Autodidacta",
+      begin: {
+        month: 'apr',
         year: '2019'
       },
       duration: null,
       occupation: "Frontend developer",
-      description: "I am part of the Corporate team, responsible for the development and maintenance of the employee management platform, giving more and more autonomy to partner companies."
-  
-    },  {
-      company: "Lendico",
-      begin: {
-        month: 'apr',
-        year: '2018'
-      },
-      duration: null,
-      occupation: "Frontend developer",
-      description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
+      description: "Continuo mi aprendisaje con plataformas digitales. Platzi, udemi y youtube entre otras me permiten adquirir más conoscimientos los cuales nutri con la documentación de estas nuevas herramientas."
   
     }, {
-      company: "Anapro",
+      company: "Freelancer",
       begin: {
         month: 'dec',
-        year: '2016'
+        year: '2019'
       },
-      duration: '1 yr e 5 mos',
-      occupation: "Fullstack developer",
-      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
-    }, {
-      company: "Anapro",
-      begin: {
-        month: 'set',
-        year: '2012'
-      },
-      duration: '4 yrs e 3 mos',
-      occupation: "Support Technician",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
-  
-    },
+      duration: 'Actualidad',
+      occupation: "Frontend developer",
+      description: "Desarrollo y mantenimiento, correctivo y preventivo, de aplicaciones web para el mercado inmobiliario."
+    }, 
   ],
   portifolio: [
     {
-      image: "/images/gatsby-starter-cv.png",
-      description: "Gatsby starter CV template",
-      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+      image: "/images/avatar.jpg",
+      description: "Sitio web de FullPizzas",
+      url: "https://fullpizzas-gdwl58r9q.vercel.app/"
     },
     {
-      image: "/images/awesome-grid.png",
-      description: "Responsive grid for ReactJS",
-      url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
+      image: "/images/avatar.jpg",
+      description: "Sitio web Abogada Luisa Medina",
+      url: "https://alvaro-medina-etvsi4f81.vercel.app/"
+    },
+    {
+      image: "/images/avatar.jpg",
+      description: "Sitio web Inmobiliaria Senna",
+      url: "https://anichpropiedades-etvsi4f81.vercel.app/"
+    },
+    {
+      image: "/images/avatar.jpg",
+      description: "Sitio web Corredora de Propiedades Anich",
+      url: "https://anichpropiedades-etvsi4f81.vercel.app/"
+    },
+    {
+      image: "/images/avatar.jpg",
+      description: "Sitio web Arriendos Rancagua",
+      url: "https://anichpropiedades-etvsi4f81.vercel.app/"
     },
     /* more portifolio items here */
   ],
   social: {
-    twitter: "https://twitter.com/_franciscodf",
-    linkedin: "https://www.linkedin.com/in/santos-francisco",
-    github: "https://github.com/santosfrancisco",
-    email: "yoshi.df@gmail.com"
+    twitter: "",
+    linkedin: "https://www.linkedin.com/in/%C3%A1lvaro-medina-734a63190/",
+    github: "https://github.com/AlvaritOO",
+    email: "alvaro.e.medina.a@gmail.com"
   },
-  siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
+  siteUrl: 'https://github.com/AlvaritOO',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
-  siteCover: '/images/cover.jpeg',
+  siteCover: '/images/matrix-wallpaper.png',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
@@ -115,7 +117,7 @@ module.exports = {
       url: '/',
     },
     {
-      label: 'Portifolio',
+      label: 'Portafolio',
       url: '/portifolio',
     }
   ]
