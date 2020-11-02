@@ -44,7 +44,7 @@ module.exports = {
       },
       duration: null,
       occupation: "Curso 1000 Programadores",
-      description: "Participo de programa de capacitción de 500 horas las cuales complete y obtuve certificaión de desarrollo del mismo."
+      description: "Participo de programa de capacitación de 500 horas las cuales complete y obtuve certificación de desarrollo del mismo."
   
     },  {
       company: "Capacitación Autodidacta",
@@ -54,7 +54,7 @@ module.exports = {
       },
       duration: null,
       occupation: "Frontend developer",
-      description: "Continuo mi aprendisaje con plataformas digitales. Platzi, udemi y youtube entre otras me permiten adquirir más conoscimientos los cuales nutri con la documentación de estas nuevas herramientas."
+      description: "Continuo mi aprendizaje con plataformas digitales. Platzi, udemi y youtube entre otras me permiten adquirir más conocimientos los cuales nutrí con la documentación de estas nuevas herramientas."
   
     }, {
       company: "Freelancer",
@@ -69,30 +69,16 @@ module.exports = {
   ],
   portifolio: [
     {
-      image: "/images/avatar.jpg",
+      image: "/images/matrix-wallpaper.png",
       description: "Sitio web de FullPizzas",
       url: "https://fullpizzas-gdwl58r9q.vercel.app/"
     },
     {
-      image: "/images/avatar.jpg",
-      description: "Sitio web Abogada Luisa Medina",
+      image: "/images/matrix-wallpaper.png",
+      description: "Sitio web Luisa Medina",
       url: "https://alvaro-medina-etvsi4f81.vercel.app/"
     },
-    {
-      image: "/images/avatar.jpg",
-      description: "Sitio web Inmobiliaria Senna",
-      url: "https://anichpropiedades-etvsi4f81.vercel.app/"
-    },
-    {
-      image: "/images/avatar.jpg",
-      description: "Sitio web Corredora de Propiedades Anich",
-      url: "https://anichpropiedades-etvsi4f81.vercel.app/"
-    },
-    {
-      image: "/images/avatar.jpg",
-      description: "Sitio web Arriendos Rancagua",
-      url: "https://anichpropiedades-etvsi4f81.vercel.app/"
-    },
+    
     /* more portifolio items here */
   ],
   social: {
@@ -110,7 +96,7 @@ module.exports = {
   fontColor: "#000000cc",
   enableDarkmode: true, // If true, enables dark mode switch
   display: 'minimal-ui',
-  icon: 'src/assets/gatsby-icon.png',
+  icon: 'src/assets/diamante.png',
   headerLinks: [
     {
       label: 'Home',
