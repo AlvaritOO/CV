@@ -42,7 +42,7 @@ module.exports = {
         month: 'dic',
         year: '2018'
       },
-      duration: null,
+      duration: "4 meses",
       occupation: "Curso 1000 Programadores",
       description: "Participo de programa de capacitación de 500 horas las cuales complete y obtuve certificación de desarrollo del mismo."
   
@@ -52,7 +52,7 @@ module.exports = {
         month: 'apr',
         year: '2019'
       },
-      duration: null,
+      duration: "1 año, 3 meses",
       occupation: "Frontend developer",
       description: "Continuo mi aprendizaje con plataformas digitales. Platzi, udemi y youtube entre otras me permiten adquirir más conocimientos los cuales nutrí con la documentación de estas nuevas herramientas."
   
@@ -62,21 +62,21 @@ module.exports = {
         month: 'dec',
         year: '2019'
       },
-      duration: 'Actualidad',
+      duration: "Actualidad",
       occupation: "Frontend developer",
       description: "Desarrollo y mantenimiento, correctivo y preventivo, de aplicaciones web para el mercado inmobiliario."
     }, 
   ],
   portifolio: [
     {
-      image: "/images/matrix-wallpaper.png",
+      image: "/images/fullpizzas.png",
       description: "Sitio web de FullPizzas",
       url: "https://fullpizzas-gdwl58r9q.vercel.app/"
     },
     {
-      image: "/images/matrix-wallpaper.png",
+      image: "/images/luisamedina.png",
       description: "Sitio web Luisa Medina",
-      url: "https://alvaro-medina-etvsi4f81.vercel.app/"
+      url: "https://luisamedina-atvnfef8o.vercel.app/"
     },
     
     /* more portifolio items here */
