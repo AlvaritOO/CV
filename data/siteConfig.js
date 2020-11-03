@@ -6,7 +6,7 @@ module.exports = {
   twitterUsername: 'AlvaritOO',
   githubUsername: 'AlvaritOO',
   authorAvatar: '/images/avatar.jpg',
-  authorDescription: `Desarrollador, apasionado por lo que hago. Siempre interesado en cómo se hacían los sitios, comencé a estudiar HTML, CSS y Javascrip por hobby.<br /> Constantemente me estoy capacitando con documentación, tutoriales y cursos en linea que veo diaramente. <br />Actualmente trabajo como desarrollador frontend freelance y trabajo principalmente con  <strong>React, Nextjs y Gatsbyjs.</strong>`,
+  authorDescription: `Desarrollador, apasionado por lo que hago. Siempre interesado en cómo se hacían los sitios, comencé a estudiar HTML, CSS y Javascrip por hobby.<br /> Constantemente me estoy capacitando con documentación, tutoriales y cursos en linea que veo diariamente. <br />Actualmente trabajo como desarrollador frontend freelance y trabajo principalmente con  <strong>React, Nextjs y Gatsbyjs.</strong>`,
   skills: [
     {
       name: 'HTML',
