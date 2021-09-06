@@ -5,16 +5,18 @@ module.exports = {
   authorName: 'Álvaro Medina',
   twitterUsername: 'AlvaritOO',
   githubUsername: 'AlvaritOO',
-  authorAvatar: '/images/avatar.jpg',
-  authorDescription: `Desarrollador, apasionado por lo que hago. Siempre interesado en cómo se hacían los sitios, comencé a estudiar HTML, CSS y Javascrip por hobby.<br /> Constantemente me estoy capacitando con documentación, tutoriales y cursos en linea que veo diariamente. <br />Actualmente trabajo como desarrollador frontend freelance y trabajo principalmente con  <strong>React, Nextjs y Gatsbyjs.</strong>`,
+  authorAvatar: '/images/avartaSerioYo.jpeg',
+  authorDescription: `Soy una persona apasionada por la tecnología, perseverante, empática, que siempre busca la mejora continua, me guste trabajar en espacios colaborativos y que la autocrítica forme parte del aprendizaje constante.
+
+  Como desarrollador soy apasionado por lo que hago. Siempre interesado en cómo se hacían los sitios, comencé a estudiar HTML, CSS y Javascript por hobby. <br />Actualmente trabajo como analista de software y desarrollador frontend. Trabajo principalmente con  <strong>React, Ruby, Nextjs y Gatsbyjs.</strong>`,
   skills: [
     {
       name: 'HTML',
-      level: 60
+      level: 80
     },
     {
       name: 'CSS',
-      level: 60
+      level: 75
     },
     {
       name: 'Javascript',
@@ -30,42 +32,55 @@ module.exports = {
     },
     {
       name: 'Git',
-      level: 50
+      level: 75
+    },
+    {
+      name: 'Ruby',
+      level: 60
     },
     /* more skills here */
   ],
   jobs: [
     /* more jobs here */
     {
-      company: "Sence",
+      company: "- Santo Tomas",
       begin: {
-        month: 'dic',
+        month: 'Mar',
+        year: '2002'
+      },
+      duration: "Carrera profecional. 5 semestres",
+      occupation: "Tecnico en Diseño Publicitario",
+      description: "Estudios de diseño grafico, fotografia, marketing y publicidad de alto impacto."
+
+    }, {
+      company: "- San Jorge",
+      begin: {
+        month: 'oct',
         year: '2018'
       },
-      duration: "4 meses",
-      occupation: "Curso 1000 Programadores",
-      description: "Participo de programa de capacitación de 500 horas las cuales complete y obtuve certificación de desarrollo del mismo."
-  
-    },  {
-      company: "Capacitación Autodidacta",
-      begin: {
-        month: 'apr',
-        year: '2019'
-      },
-      duration: "1 año, 3 meses",
-      occupation: "Frontend developer",
-      description: "Continuo mi aprendizaje con plataformas digitales. Platzi, udemi y youtube entre otras me permiten adquirir más conocimientos los cuales nutrí con la documentación de estas nuevas herramientas."
-  
+      duration: "Octubre 2018 a Enero 2019, 4 meses",
+      occupation: "Analista Programador de App ",
+      description: "Abordar temáticas sobre cómo resumir y reportar los datos en visualizaciones interactivas y reportes escritos, con énfasis en todo lo relacionado con la extracción, limpieza y preparación de datos. Conocerás las bases de datos relacionales y cómo poder trabajar con éstas para el análisis posterior."
+
     }, {
-      company: "Freelancer",
+      company: "- Indecap",
       begin: {
-        month: 'dec',
-        year: '2019'
+        month: 'mar',
+        year: '2021'
       },
-      duration: "Actualidad",
-      occupation: "Frontend developer",
-      description: "Desarrollo y mantenimiento, correctivo y preventivo, de aplicaciones web para el mercado inmobiliario."
-    }, 
+      duration: "Marzo a Junio 2021, 4 meses",
+      occupation: "Analista y desarrollador de aplicaciones de software",
+      description: "Analista Desarrollador realiza las actividades de análisis de requerimientos, diseño, creación, pruebas e implementación de soluciones informáticas de software para llevar las operaciones y/o actividades de una empresa."
+    }, {
+      company: "- Le Wagon",
+      begin: {
+        month: 'may',
+        year: '2021'
+      },
+      duration: "Mayo a Septiembre 2021, 5 meses",
+      occupation: "Emprendimiento digital con tecnologia web",
+      description: "Creación de un Producto Mínimo Viable (MVP). Manejo de herramientas de Learn Startup, Design Thinking, Diseño y Prototipamiento de la Experiencia Usuaria, Visión y Gestión Ágil del Producto, sumado a las habilidades de implementación y desarrollo de un prototipo funcional de un aplicativo web. Emprender en startups y desarrollo de prototipos y productos de aplicaciones web en industrias de software, agencias y consultoras digitales."
+    },
   ],
   portifolio: [
     {
@@ -78,7 +93,7 @@ module.exports = {
       description: "Sitio web Luisa Medina",
       url: "https://luisamedina-atvnfef8o.vercel.app/"
     },
-    
+
     /* more portifolio items here */
   ],
   social: {
